@@ -1,8 +1,8 @@
 # 0448. Find All Numbers Disappeared in an Array
 
-Difficulty: easy
-Link: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
-Topics: Array-String
+- Difficulty: easy
+- Link: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+- Topics: Array-String
 
 # Clarification
 

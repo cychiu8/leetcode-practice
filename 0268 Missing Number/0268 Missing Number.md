@@ -1,8 +1,8 @@
 # 0268. Missing Number
 
-Difficulty: easy
-Link: https://leetcode.com/problems/missing-number/
-Topics: Array-String
+- Difficulty: easy
+- Link: https://leetcode.com/problems/missing-number/
+- Topics: Array-String
 
 # Clarification
 
@@ -13,11 +13,6 @@ Topics: Array-String
     - find the missing value
 
 # Naive Solution
-
-<aside>
-💡 從最簡單的方法開始 easy solution → only speak out
-
-</aside>
 
 ### Thought Process
 
@@ -51,13 +46,6 @@ Topics: Array-String
     - Memory Usage: 16.4 MB, less than 5.81%
 
 ### Problems & Improvement
-
-<aside>
-💡 解釋該解法的問題、可以往哪個方向改善 (一次改善一個問題)
-
-- 瓶頸點在哪裡
-- 哪些部分是不需要的
-</aside>
 
 - **Follow up:** Could you implement a solution using only `O(1)` extra space complexity and `O(n)` runtime complexity?
 
@@ -98,30 +86,8 @@ Topics: Array-String
 
 # Check special cases, check error
 
-<aside>
-💡 How you make break with the function
-
-- 確認特別的 input 是否影響結果
-- 確認可能已知的 error
-- 有考慮到哪些 assumption
-</aside>
-
 - 
 
 # Note
-
-<aside>
-💡 提出可以再改善的方式 (都可以用口語表達即可)
-
-- 可針對特定語言擁有的 function (快速解決問題的方法)
-    - 指出此方法的優點 eg. readable
-- 精簡成新的 method
-    - 一個 method 一件事情
-</aside>
-
-<aside>
-💡 相關 Note 紀錄
-
-</aside>
 
 - [Time Complexity in Python](https://wiki.python.org/moin/TimeComplexity)

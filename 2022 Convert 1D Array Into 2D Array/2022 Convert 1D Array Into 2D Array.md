@@ -1,11 +1,8 @@
 # 2022. Convert 1D Array Into 2D Array
 
-Create time: January 16, 2022 10:10 AM
-Difficulty: easy
-Last edited time: January 16, 2022 1:05 PM
-Link: https://leetcode.com/problems/convert-1d-array-into-2d-array/
-Status: doing
-Topics: https://www.notion.so/Array-String-b2b93a26c35b4753a737779b542c1adb
+- Difficulty: easy
+- Link: https://leetcode.com/problems/convert-1d-array-into-2d-array/
+- Topics: Array-String
 
 # Clarification
 
