@@ -36,7 +36,8 @@ Topics: Array-String
 
 ### Complexity
 
-- Time complexity: $O(n)$
+- Time complexity: $O(n^2)$
+    ![complexity](./Untitled%2001.png)
 - Space complexity: $O(n)$
 
 ### Problems & Improvement
