@@ -60,24 +60,6 @@
 ### Thought Process
 
 1. two for loop to check the numbers
-- Implement
-    
-    ```python
-    class Solution:
-        def findDuplicate(self, nums: List[int]) -> int:
-            """
-            1. using Gauss Algorithm $sum=(1+n)*(n)/2$
-            2. sum the array
-            3. subtract the summation of input array and the without one
-            """
-            
-            sumWithoutDuplicate = (1 + len(nums) - 1)*(len(nums) - 1)/2
-            sum = 0
-            for num in nums:
-                sum += num
-            return int(sum - sumWithoutDuplicate)
-    ```
-    
 
 ### Complexity
 
@@ -132,6 +114,8 @@
     
     ![Untitled](./Untitled%201.png)
     
+    ![Untitled](./Untitled%202.png)
+
 - 運用此原理進行 Binary search 找出重複的值
     1. lowerBound = 1, upperBound= len(nums) - 1
     2. 當 lowerBound < upperBound
@@ -186,15 +170,15 @@
 
 - 原理
     
-    ![Untitled](./Untitled%202.png)
+    ![Untitled](./Untitled%203.png)
     
 - Linked List Cycle Detection
     
-    ![Untitled](./Untitled%203.png)
+    ![Untitled](./Untitled%204.png)
     
 - Find the entry point of the cycle
     
-    ![Untitled](./Untitled%204.png)
+    ![Untitled](./Untitled%205.png)
     
 - implement
     
@@ -249,4 +233,4 @@
             ```
             
 - [Leetcode 287 Find the Duplicate Number](https://www.youtube.com/watch?v=zQ6eAdtDeqg)
-- **[LeetCode 287 Find the Duplicate Number (Python)](https://maxming0.github.io/2020/06/25/Find-the-Duplicate-Number/)**
+- [LeetCode 287 Find the Duplicate Number (Python)](https://maxming0.github.io/2020/06/25/Find-the-Duplicate-Number/)
