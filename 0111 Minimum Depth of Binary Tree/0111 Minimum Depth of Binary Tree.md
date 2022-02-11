@@ -17,6 +17,10 @@
 
 1. BFS
 2. 當遇到 left, right 皆為 null 時，回傳當下的 level
+- Queue 一開始的數量，為該 level node 的數量
+
+![Untitled](./Untitled.png)
+
 - Implement
     
     ```python
@@ -64,6 +68,9 @@
 1. if root = None : return 0
 2. 有 root.left 與 root.right 時，取兩者較小的 + 1 (加上自己 root 這層)
 3. 只有 root.left 或 root.right 時，取有的那邊往下走
+
+![Untitled](./Untitled%201.png)
+
 - Implement
     
     ```python
@@ -86,3 +93,7 @@
             else:
                 return min(self.minDepth(root.left), self.minDepth(root.right)) + 1
     ```
+    
+# Notes
+
+- [visualgo](https://visualgo.net/en/bst)
