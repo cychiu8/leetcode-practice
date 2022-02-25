@@ -1,12 +1,9 @@
 # 0107. Binary Tree Level Order Traversal II
 
-Create time: February 24, 2022 6:28 AM
-Difficulty: medium
-Last edited time: February 24, 2022 8:57 AM
-Link: https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-Status: done
-Topics: https://www.notion.so/DFS-BFS-63e4d835e9484de693886f084344fdf9
-highlight: 視情況記住每層的 level
+* Difficulty: medium
+* Link: https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+* Topics: DFS-BFS
+* highlight: 視情況記住每層的 level
 
 # Clarification
 
