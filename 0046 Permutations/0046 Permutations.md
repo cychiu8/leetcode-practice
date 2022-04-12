@@ -39,6 +39,15 @@
                 
             def permutate(subset, res):
                 if len(subset) == len(nums):
+                    return result.append(subset)
+                for i in range(len(nums)):
+                    if visited[res[i]]:
+                        continue
+                    visited[res[i]] = True
+                    permutate(subset + [res[i]], res[:i] + res[i:])
+                    visited[res[i]] = False
+            permutate([], nums[:])
+            return result
      
     ```
     
