@@ -21,7 +21,10 @@
 - middle 是在左邊的 array 還是右邊的 array?
     - middle > left ⇒ middle 在左邊 array
     - middle < left ⇒ middle 在右邊 array
-- 何種情況下要看 middle 左邊、右邊?
+- search space 為左側與右側分別的前提
+    
+    ![Untitled](./Untitled.png)
+    
 - Implement
     
     ```python
